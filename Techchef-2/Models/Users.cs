@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace Techchef_2.Models
+﻿namespace Techchef_2.Models
 {
-  
-
-      public class Datum
+    public class Datum
     {
         public int id { get; set; }
         public string email { get; set; }
@@ -15,13 +8,11 @@ namespace Techchef_2.Models
         public string last_name { get; set; }
         public string avatar { get; set; }
     }
-
     public class Support
     {
         public string url { get; set; }
         public string text { get; set; }
     }
-
     public class Root
     {
         public int page { get; set; }
@@ -31,5 +22,4 @@ namespace Techchef_2.Models
         public Datum data { get; set; }
         public Support support { get; set; }
     }
-
 }
